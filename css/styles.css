@@ -1,0 +1,49 @@
+.jumbotron {
+  color: white;
+  background-color: #111e46; 
+}
+
+.btn {
+  color: white;
+  background-color: #111e46;
+}
+
+#over100Under1500 {
+  display: none;
+  color: yellow;
+  background-color: #111e46;
+  width: 800px;
+  margin: 20px;
+}
+
+#over1500 {
+  display: none;
+  color: yellow;
+  background-color: #111e46;
+  width: 800px;
+  margin: 20px;
+}
+
+#under100Small {
+  display: none;
+  color: yellow;
+  background-color: #111e46;
+  width: 800px;
+  margin: 20px;
+}
+
+#under100Large {
+  display: none;
+  color: yellow;
+  background-color: #111e46;
+  width: 800px;
+  margin: 20px;
+}
+
+#cartsIsolates {
+  display: none;
+  color: yellow;
+  background-color: #111e46;
+  width: 800px;
+  margin: 20px;
+}

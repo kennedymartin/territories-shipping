@@ -1,0 +1,75 @@
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script> 
+    <title>US Territory Shipping Options</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="territory-shipping">
+        <div class="jumbotron">
+          <h1>US Territory Shipping Options</h1>
+          <h3>This form may be used to determine the appropriate shipping method and cost for an order being shipped to a US Territory.</h3>
+        </div>
+
+        <div class="form-group">
+          <form id="territory-orders">
+          <label for="order-value">Order Value:</label>
+          <input id="order-value" type="text" required="required">
+      </div>
+
+      <div class="form-group">
+          <label for="cartridges">Does the order contain cartridges? (Not including small sample packages.)</label>
+          <select id="cartridges">
+          <option value="1">Yes</option>
+          <option value="2">No</option>
+         </select>
+      </div>
+
+      <div class="form-group">
+        <label for="isolates">Does the order contain isolated terpenes?</label>
+        <select id="isolates">
+        <option value="1">Yes</option>
+        <option value="2">No</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+          <label for="bottles">What size bottles does the order contain?</label>
+          <select id="bottles">
+          <option value="1">1oz or below.</option>
+          <option value="2">4oz and above.</option>
+          </select>
+        </div>
+
+      </div>
+       <button type="submit" class="btn">Find applicable shipping options</button>
+      </div>
+    </div>
+
+    <div class="well" id="over100Under1500">
+      Orders over $100 receive free shipping. The shipping method is 'USPS Priority Flat Rate'. This order may be quoted for expedited shipping if requested (expedited orders will ship via UPS). NOTE: Orders being expedited to US Territories often do not arrive on the expected date. We do not suggest attempting to expedite these orders and will not refund the cost if the order does not arrive "on time". The customer should be informed of this if they request expedited shipping.
+    </div> 
+
+    <div class="well" id="over1500">
+      Orders over $100 receive free shipping. The shipping method is 'UPS Flat Rate' when the order value is above $1,500. This order may be quoted for expedited shipping if requested (expedited orders will ship via UPS). NOTE: Orders being expedited to US Territories often do not arrive on the expected date. We do not suggest attempting to expedite these orders and will not refund the cost if the order does not arrive "on time". The customer should be informed of this if they request expedited shipping.
+    </div> 
+
+    <div class="well" id="under100Small">
+      Orders containing bottles sized at 1oz or smaller ship at a flat rate of $8.00. The shipping method is 'USPS Priority Flat Rate' (expedited orders will ship via UPS). This order may be quoted for expedited shipping if requested. NOTE: Orders being expedited to US Territories often do not arrive on the expected date. We do not suggest attempting to expedite these orders and will not refund the cost if the order does not arrive "on time". The customer should be informed of this if they request expedited shipping.
+      </div> 
+    </div> 
+
+    <div class="well" id="under100Large">
+      Orders containing bottles sized at 4oz or larger ship at a flat rate of $14.00. The shipping method is 'USPS Priority Flat Rate' (expedited orders will ship via UPS). This order may be quoted for expedited shipping if requested (expedited orders will ship via UPS). NOTE: Orders being expedited to US Territories often do not arrive on the expected date. We do not suggest attempting to expedite these orders and will not refund the cost if the order does not arrive "on time". The customer should be informed of this if they request expedited shipping.
+    </div> 
+
+    <div class="well" id="cartsIsolates">
+      Orders containing cartridges and/or isolates must receive a custom UPS shipping quote. Assign to Betsy for quotation. 
+    </div>
+
+    </div>
+  </body>
+</html>
